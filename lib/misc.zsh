@@ -9,7 +9,6 @@ bindkey "^[m" copy-prev-shell-word
 setopt long_list_jobs
 
 ## pager
-export PAGER="less"
-export LESS="-R"
+export PAGER=most
+export LC_CTYPE=en_US.UTF-8
 
-export LC_CTYPE=$LANG
